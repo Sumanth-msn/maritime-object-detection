@@ -487,7 +487,7 @@ if __name__ == "__main__":
         # Training duration
         epochs=30,  # Reasonable for convergence
         patience=8,  # Early stopping
-        # Batch settings (T4 optimized)
+        # Batch settings (T4-optimized)
         batch=4,  # Safe for T4 16GB VRAM
         device=0,
         # Optimizer
@@ -501,7 +501,7 @@ if __name__ == "__main__":
         scale=0.5,  # Multi-scale: 512-1024px
         mosaic=1.0,  # Combine 4 images (more small objects)
         copy_paste=0.1,  # Copy-paste small objects
-        # Performance (T4 optimized)
+        # Performance (T4-optimized)
         amp=True,  # CRITICAL: Mixed precision for memory
         workers=4,  # Reduced for T4
         cache=False,  # Don't cache to save RAM

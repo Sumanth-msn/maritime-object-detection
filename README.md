@@ -204,7 +204,7 @@ The trained model supports:
 - Batch image inference
 - Video and real-time stream processing
 
-Inference parameters such as confidence threshold, IOU threshold, and class filtering can be customized.
+Inference parameters such as confidence threshold, IOU threshold,and class filtering can be customized.
 
 ---
 
