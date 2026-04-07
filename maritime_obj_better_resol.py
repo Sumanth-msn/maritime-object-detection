@@ -19,6 +19,7 @@ from ultralytics import YOLO
 # ENVIRONMENT SETTINGS
 # ============================================================
 os.environ["OMP_NUM_THREADS"] = "1"
+
 torch.backends.cudnn.benchmark = True
 
 # ============================================================
@@ -30,6 +31,7 @@ torch.backends.cudnn.benchmark = True
 
 OLD_PROJECT_ROOT = "/home/ec2-user/Maritime-Obj-Det"
 NEW_PROJECT_ROOT = "/home/ec2-user/version2"
+
 
 RAW_DATASET = f"{OLD_PROJECT_ROOT}/dataset"  # reuse if needed
 YOLO_DATASET = f"{OLD_PROJECT_ROOT}/dataset_yolo"  # reuse (IMPORTANT)
