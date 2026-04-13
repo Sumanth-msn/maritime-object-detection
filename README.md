@@ -63,7 +63,7 @@ This project solves:
 
 ---
 
-## 📊 Performance Metrics (Simple Explanation)
+## 📊 Performance Metrics
 
 * **Precision (91.2%)** → How many predicted objects are correct
 * **Recall (89.5%)** → How many real objects were detected
