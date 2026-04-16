@@ -111,11 +111,19 @@ YOLOv8 uses an anchor-free detection approach, making it faster and simpler.
 
 ## 🛠️ Tech Stack
 
-* Python
-* YOLOv8 (Ultralytics)
-* PyTorch
-* OpenCV
-* NumPy
+###  Core AI & Computer Vision
+*   **YOLOv8 (Ultralytics)**: Real-time object detection framework.
+*   **PyTorch**: Deep learning engine utilized for model architecture and GPU acceleration.
+*   **OpenCV**: Computer vision library for image preprocessing and video stream handling.
+
+###  Data & Math
+*   **NumPy**: Array manipulation and high-performance mathematical computations.
+*   **Pandas**: Data analysis of `results.csv` training logs and performance metrics.
+
+###  Infrastructure & Cloud
+*   **Amazon EC2 (G4dn)**: Scalable cloud infrastructure used for high-performance model training.
+*   **NVIDIA T4 GPU**: Hardware acceleration via CUDA for efficient training and inference.
+*   **Linux (Ubuntu)**: Secure and stable OS environment used for cloud-side deployment.
 
 ---
 
